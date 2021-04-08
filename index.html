@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Roboto:ital,wght@1,100&family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="main.css">
+    <title>cinnamon</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="add-btn"><i class="material-icons">add</i></li>
+            </ul>   
+        </nav>
+        <h2 id="title">titulo</h2>
+    </header>
+    <main>
+        <div class="items-container">
+            <div class="item">
+                <img class="main-item-image" src="public/img/prueba.jpg" alt="">
+                <div class="hover-container">
+                    <img src="public/img/point.png" alt="">
+                    <p class="hover-title">Titulo</p>
+                    <p class="delete-btn">X</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="create-link-container">
+        <div id="form-container">
+            <div id="form-left"></div>
+            <div id="form-right">
+                <h4>insert new Link</h4>
+                <p>Do you have a link alreay? <a href="#">click here</a> to modify it</p>
+                <div id="form-container">
+                    <form action="#" method="post" autocomplete="off">
+                        <label for="name">name:</label>
+                        <input type="text" name="name" id="name-input"><br>
+
+                        <label for="link">link:</label>
+                        <input type="text" name="link" id="link-input"><br>
+
+                        <label for="img">img:</label>
+                        <input type="file" name="img" id="img-input"><br>
+
+                        <input type="submit" value="Insert new Link">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
